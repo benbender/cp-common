@@ -1,20 +1,7 @@
-# @webdev-config/eslint
-ESLint configuration to be shared across repositories.
+# Common packages to simplify my work
+
 
 # Install
-`npm i -D @webdev-config/eslint`
+`npm i -D @benbender/eslint-config`
 
-# Configure
-Append to `package.json`:
-
-`"eslintConfig": { "extends": "./node_modules/@webdev-config/eslint" }`
-
-# Execute
-`eslint [path regex]`
-
-`eslint ./src/**`
-
-`eslint ./index.ts`
-
-# Test
-Build test code inside of `index.ts`, use `package.json` scripts `test` and `fix` to execute local testing.
+`npx install-peerdeps --dev @benbender/eslint-config`

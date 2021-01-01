@@ -1,0 +1,38 @@
+{
+    "name": "@benbender/stylelint-config",
+    "version": "0.0.0",
+    "description": "Stylelint configuration to be shared across repositories.",
+    "main": "index.js",
+    "author": "Benjamin Bender <bb@codepoet.de>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/benbender/cp-common.git",
+        "directory": "stylelint-config"
+    },
+    "bugs": {
+        "url": "https://github.com/benbender/cp-common/issues"
+    },
+    "homepage": "https://github.com/benbender/cp-common#readme",
+    "keywords": [
+        "stylelint",
+        "stylelint-config",
+        "configuration"
+    ],
+    "scripts": {
+        "test": ""
+    },
+    "files": [
+        "index.js"
+    ],
+    "dependencies": {
+        "stylelint": "^13.8.0",
+        "stylelint-config-prettier": "^8.0.2",
+        "stylelint-config-recommended": "^3.0.0",
+        "stylelint-no-unsupported-browser-features": "^4.1.4",
+        "stylelint-prettier": "^1.1.2"
+    },
+    "peerDependencies": {
+        "stylelint": ">= 13"
+    }
+}

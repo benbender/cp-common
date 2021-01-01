@@ -27,9 +27,9 @@
         "index.js"
     ],
     "devDependencies": {
+        "@next/eslint-plugin-next": "^10.0.4",
         "@typescript-eslint/eslint-plugin": "^4.11.0",
         "@typescript-eslint/parser": "^4.11.0",
-        "@next/eslint-plugin-next": "^10.0.4",
         "eslint": "^7.16.0",
         "eslint-config-prettier": "^7.1.0",
         "eslint-plugin-import": "^2.22.1",
@@ -44,21 +44,7 @@
         "prettier-plugin-tailwind": "^2.2.8"
     },
     "peerDependencies": {
-        "@typescript-eslint/eslint-plugin": "^4.11.0",
-        "@typescript-eslint/parser": "^4.11.0",
-        "@next/eslint-plugin-next": "^10.0.4",
-        "eslint": "^7.16.0",
-        "eslint-config-prettier": "^7.1.0",
-        "eslint-plugin-import": "^2.22.1",
-        "eslint-plugin-jest-dom": "^3.6.5",
-        "eslint-plugin-jsx-a11y": "^6.4.1",
-        "eslint-plugin-prettier": "^3.3.0",
-        "eslint-plugin-promise": "^4.2.1",
-        "eslint-plugin-react": "^7.21.5",
-        "eslint-plugin-react-hooks": "^4.2.0",
-        "eslint-plugin-testing-library": "^3.10.1",
-        "prettier": "^2.2.1",
-        "prettier-plugin-tailwind": "^2.2.8"
+        "eslint": ">= 7"
     },
     "eslintConfig": {
         "extends": "./index.js"

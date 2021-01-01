@@ -1,0 +1,36 @@
+{
+    "name": "@benbender/prettier-config",
+    "version": "0.0.0",
+    "description": "Prettier configuration to be shared across repositories.",
+    "main": "index.js",
+    "author": "Benjamin Bender <bb@codepoet.de>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/benbender/cp-common.git",
+        "directory": "prettier-config"
+    },
+    "bugs": {
+        "url": "https://github.com/benbender/cp-common/issues"
+    },
+    "homepage": "https://github.com/benbender/cp-common#readme",
+    "keywords": [
+        "prettier",
+        "configuration"
+    ],
+    "scripts": {
+        "test": "eslint ./index.js",
+        "lint": "eslint ./index.js",
+        "lint:fix": "eslint ./index.js --fix"
+    },
+    "files": [
+        "index.js"
+    ],
+    "dependencies": {
+        "prettier": "^2.2.1",
+        "prettier-plugin-tailwind": "^2.2.8"
+    },
+    "peerDependencies": {
+        "prettier": ">= 2.2"
+    }
+}

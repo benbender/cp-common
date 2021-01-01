@@ -1,6 +1,6 @@
 {
     "name": "@benbender/stylelint-config",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Stylelint configuration to be shared across repositories.",
     "main": "index.js",
     "author": "Benjamin Bender <bb@codepoet.de>",

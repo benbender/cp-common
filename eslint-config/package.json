@@ -1,6 +1,6 @@
 {
     "name": "@benbender/eslint-config",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "ESLint configuration to be shared across repositories.",
     "main": "index.js",
     "author": "Benjamin Bender <bb@codepoet.de>",
@@ -27,6 +27,7 @@
         "index.js"
     ],
     "dependencies": {
+        "@benbender/prettier-config": "^0.1.0",
         "@next/eslint-plugin-next": "^10.0.4",
         "@typescript-eslint/eslint-plugin": "^4.11.0",
         "@typescript-eslint/parser": "^4.11.0",
@@ -38,8 +39,7 @@
         "eslint-plugin-promise": "^4.2.1",
         "eslint-plugin-react": "^7.21.5",
         "eslint-plugin-react-hooks": "^4.2.0",
-        "eslint-plugin-testing-library": "^3.10.1",
-        "@benbender/prettier-config": "^0.1.0"
+        "eslint-plugin-testing-library": "^3.10.1"
     },
     "peerDependencies": {
         "eslint": ">= 7"

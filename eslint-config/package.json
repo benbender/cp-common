@@ -1,0 +1,66 @@
+{
+    "name": "@benbender/eslint-config",
+    "version": "0.1.0",
+    "description": "ESLint configuration to be shared across repositories.",
+    "main": "index.js",
+    "author": "Benjamin Bender <bb@codepoet.de>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/benbender/cp-common.git",
+        "directory": "eslint-config"
+    },
+    "bugs": {
+        "url": "https://github.com/benbender/cp-common/issues"
+    },
+    "homepage": "https://github.com/benbender/cp-common#readme",
+    "keywords": [
+        "eslint",
+        "configuration"
+    ],
+    "scripts": {
+        "test": "eslint ./index.js",
+        "lint": "eslint ./index.js",
+        "lint:fix": "eslint ./index.js --fix"
+    },
+    "files": [
+        "index.js"
+    ],
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^4.11.0",
+        "@typescript-eslint/parser": "^4.11.0",
+        "@next/eslint-plugin-next": "^10.0.4",
+        "eslint": "^7.16.0",
+        "eslint-config-prettier": "^7.1.0",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-jest-dom": "^3.6.5",
+        "eslint-plugin-jsx-a11y": "^6.4.1",
+        "eslint-plugin-prettier": "^3.3.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-react": "^7.21.5",
+        "eslint-plugin-react-hooks": "^4.2.0",
+        "eslint-plugin-testing-library": "^3.10.1",
+        "prettier": "^2.2.1",
+        "prettier-plugin-tailwind": "^2.2.8"
+    },
+    "peerDependencies": {
+        "@typescript-eslint/eslint-plugin": "^4.11.0",
+        "@typescript-eslint/parser": "^4.11.0",
+        "@next/eslint-plugin-next": "^10.0.4",
+        "eslint": "^7.16.0",
+        "eslint-config-prettier": "^7.1.0",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-jest-dom": "^3.6.5",
+        "eslint-plugin-jsx-a11y": "^6.4.1",
+        "eslint-plugin-prettier": "^3.3.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-react": "^7.21.5",
+        "eslint-plugin-react-hooks": "^4.2.0",
+        "eslint-plugin-testing-library": "^3.10.1",
+        "prettier": "^2.2.1",
+        "prettier-plugin-tailwind": "^2.2.8"
+    },
+    "eslintConfig": {
+        "extends": "./index.js"
+    }
+}

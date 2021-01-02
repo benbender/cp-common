@@ -1,7 +1,7 @@
 {
-    "name": "@benbender/postcss-config",
+    "name": "@benbender/tailwind-preset",
     "version": "0.1.0",
-    "description": "PostCSS configuration to be shared across repositories.",
+    "description": "Tailwind preset to be shared across repositories.",
     "main": "index.js",
     "author": "Benjamin Bender <bb@codepoet.de>",
     "license": "MIT",
@@ -15,9 +15,9 @@
     },
     "homepage": "https://github.com/benbender/cp-common#readme",
     "keywords": [
-        "postcss",
-        "nextjs",
-        "configuration"
+        "tailwind",
+        "tailwindcss",
+        "preset"
     ],
     "scripts": {
         "test": ""
@@ -26,8 +26,10 @@
         "index.js"
     ],
     "dependencies": {
+        "@tailwindcss/aspect-ratio": "^0.2.0",
+        "@tailwindcss/forms": "^0.2.1",
+        "@tailwindcss/typography": "^0.3.1",
         "postcss": "^7",
-        "postcss-preset-env": "^6.7.0",
         "tailwindcss": "npm:@tailwindcss/postcss7-compat"
     },
     "peerDependencies": {

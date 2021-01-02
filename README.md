@@ -67,3 +67,15 @@ $ yarn add --dev @benbender/prettier-config
 $ yarn add --dev @benbender/stylelint-config
 ```
 
+
+## @benbender/tailwind-preset
+
+[![npm](https://img.shields.io/npm/v/@benbender/tailwind-preset?color=crimson&logo=npm&style=flat-square)](https://www.npmjs.com/package/@benbender/tailwind-preset)
+
+**Install**:
+
+```bash
+$ yarn add --dev @benbender/tailwind-preset
+```
+
+

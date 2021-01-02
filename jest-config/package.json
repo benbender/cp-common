@@ -27,6 +27,7 @@
         "preact/jest-preset.js"
     ],
     "dependencies": {
+        "@babel/core": "^7.12.10",
         "@testing-library/dom": "^7.29.0",
         "@testing-library/jest-dom": "^5.11.6",
         "@testing-library/react": "^11.2.2",

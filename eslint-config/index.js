@@ -7,9 +7,6 @@ module.exports = {
         jest: true,
     },
     parser: "@typescript-eslint/parser",
-    parserOptions: {
-        tsconfigRootDir: __dirname,
-    },
     settings: {
         react: {
             version: "detect",
@@ -35,7 +32,6 @@ module.exports = {
     extends: [
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
-        "plugin:@typescript-eslint/recommended-requiring-type-checking",
         "plugin:import/errors",
         "plugin:import/warnings",
         "plugin:import/typescript",

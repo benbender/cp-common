@@ -22,9 +22,9 @@
         "test": "jest"
     },
     "files": [
+        "jest-setup.js",
         "jest-preset.js",
-        "jest-preset-preact.js",
-        "jest-setup.js"
+        "preact/jest-preset.js"
     ],
     "dependencies": {
         "@testing-library/dom": "^7.29.0",

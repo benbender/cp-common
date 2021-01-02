@@ -18,7 +18,7 @@ module.exports = {
     "setupFilesAfterEnv": [
         "@testing-library/jest-dom",
         "jest-axe/extend-expect",
-        "./jest-setup.js",
+        "@benbender/jest-config/jest-setup.js",
     ],
     "testPathIgnorePatterns": [
         "/dist/",

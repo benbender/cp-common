@@ -12,6 +12,16 @@
 $ yarn add --dev @benbender/eslint-config
 ```
 
+## @benbender/jest-config
+
+[![npm](https://img.shields.io/npm/v/@benbender/jest-config?color=crimson&logo=npm&style=flat-square)](https://www.npmjs.com/package/@benbender/jest-config)
+
+**Install**:
+
+```bash
+$ yarn add --dev @benbender/jest-config
+```
+
 ## @benbender/prettier-config
 
 [![npm](https://img.shields.io/npm/v/@benbender/prettier-config?color=crimson&logo=npm&style=flat-square)](https://www.npmjs.com/package/@benbender/prettier-config)

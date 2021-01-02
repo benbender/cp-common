@@ -1,13 +1,13 @@
-# @benbender/prettier-config
+# @benbender/jest-config
 
-[Prettier](https://prettier.io) configuration to be shared across repositories.
+[Jest](http://jestjs.io/) configuration to be shared across repositories.
 
 ## Usage
 
 **Install**:
 
 ```bash
-$ yarn add --dev @benbender/prettier-config
+$ yarn add --dev @benbender/jest-config
 ```
 
 **Edit `package.json`**:
@@ -15,6 +15,19 @@ $ yarn add --dev @benbender/prettier-config
 ```jsonc
 {
   // ...
-  "prettier": "@benbender/prettier-config"
+  "jest": {
+    "preset": "@benbender/jest-config"
+  },
+}
+```
+
+or for preact:
+
+```jsonc
+{
+  // ...
+  "jest": {
+    "preset": "@benbender/jest-config/jest-preset-preact"
+  },
 }
 ```

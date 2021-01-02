@@ -27,7 +27,7 @@ or for preact:
 {
   // ...
   "jest": {
-    "preset": "@benbender/jest-config/jest-preset-preact"
+    "preset": "@benbender/jest-config/jest-preset/preact"
   },
 }
 ```

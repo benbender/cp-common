@@ -9,12 +9,6 @@ module.exports = {
     "transform": {
         "\\.(tsx?)$": "babel-jest",
     },
-    "transformIgnorePatterns": [
-        "/dist/",
-        "/.next/",
-        "/out/",
-        "/node_modules/"
-    ],
     "setupFilesAfterEnv": [
         "@testing-library/jest-dom",
         "jest-axe/extend-expect",

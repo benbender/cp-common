@@ -2,7 +2,7 @@
     "name": "@benbender/prettier-config",
     "version": "0.1.0",
     "description": "Prettier configuration to be shared across repositories.",
-    "main": "index.js",
+    "main": "index.json",
     "author": "Benjamin Bender <bb@codepoet.de>",
     "license": "MIT",
     "repository": {
@@ -24,7 +24,7 @@
         "lint:fix": "eslint ./index.js --fix"
     },
     "files": [
-        "index.js"
+        "index.json"
     ],
     "dependencies": {
         "prettier": "^2.2.1",

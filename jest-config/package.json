@@ -1,0 +1,48 @@
+{
+    "name": "@benbender/jest-config",
+    "version": "0.0.0",
+    "description": "Jest configuration to be shared across repositories.",
+    "main": "jest-preset.js",
+    "author": "Benjamin Bender <bb@codepoet.de>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/benbender/cp-common.git",
+        "directory": "jest-config"
+    },
+    "bugs": {
+        "url": "https://github.com/benbender/cp-common/issues"
+    },
+    "homepage": "https://github.com/benbender/cp-common#readme",
+    "keywords": [
+        "jest",
+        "configuration"
+    ],
+    "scripts": {
+        "test": "jest"
+    },
+    "files": [
+        "jest-preset.js",
+        "jest-preset-preact.js",
+        "jest-setup.js"
+    ],
+    "dependencies": {
+        "@testing-library/dom": "^7.29.0",
+        "@testing-library/jest-dom": "^5.11.6",
+        "@testing-library/react": "^11.2.2",
+        "@testing-library/testcafe": "^4.3.1",
+        "@testing-library/user-event": "^12.5.0",
+        "babel-jest": "^26.6.3",
+        "identity-obj-proxy": "^3.0.0",
+        "jest": "^26.6.3",
+        "jest-axe": "^4.1.0",
+        "jest-transform-file": "^1.1.1",
+        "jest-watch-typeahead": "^0.6.1",
+        "next-page-tester": "^0.14.0",
+        "testcafe": "^1.10.1"
+    },
+    "peerDependencies": {
+        "jest": ">= 26.6",
+        "testcafe": ">= 1.10"
+    }
+}

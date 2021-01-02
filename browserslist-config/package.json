@@ -1,0 +1,32 @@
+{
+    "name": "@benbender/browserslist-config",
+    "version": "0.1.0",
+    "description": "Browserslist configuration to be shared across repositories.",
+    "main": "index.js",
+    "author": "Benjamin Bender <bb@codepoet.de>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/benbender/cp-common.git",
+        "directory": "browserslist-config"
+    },
+    "bugs": {
+        "url": "https://github.com/benbender/cp-common/issues"
+    },
+    "homepage": "https://github.com/benbender/cp-common#readme",
+    "keywords": [
+        "browserslist",
+        "configuration"
+    ],
+    "scripts": {
+        "test": ""
+    },
+    "files": [
+        "index.js"
+    ],
+    "dependencies": {},
+    "peerDependencies": {},
+    "devDependencies": {
+        "browserslist": "^4.16.0"
+    }
+}

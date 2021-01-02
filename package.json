@@ -8,11 +8,13 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
+      "browserslist-config",
       "eslint-config",
       "jest-config",
       "postcss-config",
       "prettier-config",
-      "stylelint-config"
+      "stylelint-config",
+      "tailwind-preset"
   ],
   "devDependencies": {
     "@types/node": "^14.14.19",
